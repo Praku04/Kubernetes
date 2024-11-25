@@ -58,6 +58,8 @@ az aks get-credentials --resource-group <Resource-Group-Name> --name <Cluster-Na
 # Replace Resource Group & Cluster Name
 az aks get-credentials --resource-group aks-rg1 --name aksdemo1
 
+## this will place your credentials to the .kub/config file.
+
 # List Kubernetes Worker Nodes
 kubectl get nodes 
 kubectl get nodes -o wide
